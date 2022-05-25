@@ -1,1 +1,18 @@
-<video id="video" class="video" src="/scare.mp4" loop=""></video>
+this is a litle susssy !!!111111!!1
+<script>
+var i = 0;
+const colours = [
+   "ffee00",
+   "0000ff",
+   "ffffff",
+   "ff0000"
+];
+setInterval(function() {
+i += 1;
+if (i > colours.length) {
+   i = 0
+} 
+document.querySelector("body").style.backgroundColor = colours[i];
+
+}, 50)
+</script>
